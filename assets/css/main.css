@@ -57,6 +57,11 @@ header h1, h2, h3 {
     text-align: center;
 }
 
+header h3 {
+    font-style: oblique;
+    font-weight: lighter;
+}
+
 footer small {
     font-size: 1.6rem;
 }
