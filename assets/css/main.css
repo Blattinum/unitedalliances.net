@@ -63,3 +63,9 @@ footer {
     border-top: 2.5px dashed rgb(202, 202, 202);
     text-align: center;
 }
+
+@media screen and (max-width: 900px) {
+    section.card-row-1 {
+        flex-direction: column;
+    }
+  }
