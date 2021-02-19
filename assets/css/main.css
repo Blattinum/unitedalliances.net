@@ -69,3 +69,9 @@ footer {
         flex-direction: column;
     }
   }
+
+  @media screen and (max-width: 600px) {
+    header {
+        font-size: 3.2rem;
+    }
+  }
