@@ -64,7 +64,7 @@ footer {
     text-align: center;
 }
 
-@media screen and (max-width: 900px) {
+@media screen and (max-width: 1000px) {
     section.card-row-1 {
         flex-direction: column;
     }
