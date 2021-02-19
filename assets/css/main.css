@@ -68,6 +68,9 @@ footer {
     section.card-row-1 {
         flex-direction: column;
     }
+  }
+
+  @media screen and (max-width: 950px) {
     header {
         font-size: 3.2rem;
     }
