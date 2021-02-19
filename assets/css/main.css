@@ -31,8 +31,13 @@ section.card-row-1 {
 }
 
 section.card-row-1 a {
+    background-color: #f0f0f0;
     text-decoration: none;
     color: inherit;
+}
+
+section.card-row-1 a:hover {
+    background-color: #e7e7e7;
 }
 
 .item1, .item2, .item3 {
