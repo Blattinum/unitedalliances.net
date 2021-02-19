@@ -27,7 +27,7 @@ section.card-row-1 {
     padding: 0;
     display: flex;
     flex-direction: row;
-    justify-content: space-between;
+    justify-content: stretch;
 }
 
 section.card-row-1 a {
@@ -36,6 +36,7 @@ section.card-row-1 a {
 }
 
 .item1, .item2, .item3 {
+    width: 100%;
     display: flex;
     flex-direction: column;
     text-align: center;
