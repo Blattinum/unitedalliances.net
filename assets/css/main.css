@@ -56,6 +56,10 @@ header {
     color: #f5f5f5;
 }
 
+header h1 {
+    font-family: 'Reggae One', 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
 header h1, h2, h3 {
     margin: 0;
     padding: 0;
