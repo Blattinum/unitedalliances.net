@@ -31,13 +31,14 @@ section.card-row-1 {
 }
 
 section.card-row-1 a {
-    background: linear-gradient(90deg, #3F5EFB 0%, #FC466B 100%);
+    background-color: #2F4F4F;
     text-decoration: none;
     color: #f5f5f5;
+    transition: all 0.3s ease;
 }
 
 section.card-row-1 a:hover {
-    background: linear-gradient(90deg, #FC466B 0%, #3F5EFB 100%);
+    background-color: #182929;
     color: #f5f5f5;
 }
 
@@ -58,7 +59,7 @@ header {
 }
 
 header h1 {
-    font-family: 'Reggae One', 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    /*font-family: 'Reggae One', 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;*/
 }
 
 header h1, h2, h3 {
