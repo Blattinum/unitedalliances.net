@@ -91,6 +91,10 @@ footer {
     text-align: center;
 }
 
+.netlify-status {
+    margin: 0;
+}
+
 @media screen and (max-width: 1000px) {
     section.card-row-1 {
         flex-direction: column;
