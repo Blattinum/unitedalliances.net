@@ -56,6 +56,10 @@ section.card-row-1 a:hover {
     border: 2.5px dashed rgb(202, 202, 202);
 }
 
+.card-row-1 h4 {
+    padding: 4rem;
+}
+
 header {
     margin: 0;
     padding: 1rem;
