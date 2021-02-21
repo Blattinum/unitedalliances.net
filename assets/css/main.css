@@ -44,7 +44,7 @@ section.card-row-1 a {
 }
 
 section.card-row-1 a:hover {
-    background-color: #182929;
+    background-color: #223a3a;
     color: #f5f5f5;
 }
 
@@ -58,6 +58,7 @@ section.card-row-1 a:hover {
 
 .card-row-1 h4 {
     padding: 4rem;
+    font-size: 5.0rem;
 }
 
 header {
