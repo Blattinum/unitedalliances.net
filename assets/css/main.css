@@ -67,6 +67,17 @@ section.card-row-1 a:hover {
     font-size: 5.0rem;
 }
 
+img.footer-logo {
+    max-width: 25px;
+    display: inline;
+    transition: all 0.3s ease;
+    border: 1px solid #2b2b2b;
+}
+
+img.footer-logo:hover {
+    border: 3px solid darkblue;
+}
+
 header {
     margin: 0;
     padding: 1rem;
