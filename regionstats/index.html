@@ -1,46 +1,33 @@
 <!DOCTYPE html>
 <html>
-<style>
-table,th,td {
-  border : 1px solid black;
-  border-collapse: collapse;
-}
-th,td {
-  padding: 5px;
-}
-</style>
+
+<head>
+  <title>UA Region Stats</title>
+</head>
+
+
 <body>
-
-<h1>The XMLHttpRequest Object</h1>
-
-<button type="button" onclick="loadDoc()">Get my CD collection</button>
-<br><br>
-<table id="demo"></table>
-
 <script>
-function loadDoc() {
-  var xhttp = new XMLHttpRequest();
-  xhttp.onreadystatechange = function() {
+function loadXMLDoc() {
+  var xmlhttp = new XMLHttpRequest();
+  xmlhttp.onreadystatechange = function() {
     if (this.readyState == 4 && this.status == 200) {
       myFunction(this);
     }
   };
-  xhttp.open("GET", "https://www.w3schools.com/xml/cd_catalog.xml", true);
-  xhttp.send();
+  xmlhttp.open("GET", "https://www.nationstates.net/cgi-bin/api.cgi?region=united_alliances&q=numnations", true);
+  xmlhttp.send();
 }
+
 function myFunction(xml) {
-  var i;
-  var xmlDoc = xml.responseXML;
-  var table="<tr><th>Artist</th><th>Title</th></tr>";
-  var x = xmlDoc.getElementsByTagName("CD");
-  for (i = 0; i <x.length; i++) { 
-    table += "<tr><td>" +
-    x[i].getElementsByTagName("ARTIST")[0].childNodes[0].nodeValue +
-    "</td><td>" +
-    x[i].getElementsByTagName("TITLE")[0].childNodes[0].nodeValue +
-    "</td></tr>";
+  var x, i, xmlDoc, txt;
+  xmlDoc = xml.responseXML;
+  txt = "";
+  x = xmlDoc.getElementsByTagName("NUMNATIONS");
+  for (i = 0; i< x.length; i++) {
+    txt += x[i].childNodes[0].nodeValue + "<br>";
   }
-  document.getElementById("demo").innerHTML = table;
+  document.getElementById("demo").innerHTML = txt;
 }
 </script>
 
