@@ -130,6 +130,17 @@ footer {
     padding: 2rem;
 }
 
+section.card-row-2 {
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+section.card-row-2 p {
+    width: 100%;
+}
+
 @media screen and (max-width: 1000px) {
     section.card-row-1 {
         flex-direction: column;
