@@ -8,7 +8,7 @@
 </head>
 <body onload="loadjsnow()">
     
-    <div class="featuredRegion">por quoi</div>
+    <!--<div class="featuredRegion">por quoi</div>-->
 
     <script>
 function loadjsnow() {
@@ -23,7 +23,7 @@ function loadjsnow() {
 
     let featuredRegion = xml.documentElement.childNodes[1].innerHTML;
 
-    document.querySelector('.featuredRegion').innerHTML = xml.documentElement.childNodes[1].innerHTML;
+    //document.querySelector('.featuredRegion').innerHTML = xml.documentElement.childNodes[1].innerHTML;
     console.log('yolo2');
     
     location.replace("https://nationstates.net/region=" + featuredRegion);
