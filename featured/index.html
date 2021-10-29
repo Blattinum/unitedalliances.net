@@ -21,12 +21,12 @@ function loadjsnow() {
 
     console.log(xml);
 
-    //let featuredRegion = xml.documentElement.childNodes[9].innerHTML;
+    let featuredRegion = xml.documentElement.childNodes[1].innerHTML;
 
     document.querySelector('.featuredRegion').innerHTML = xml.documentElement.childNodes[1].innerHTML;
     console.log('yolo2');
-
-   // location.replace("https://nationstates.net/region=" + featuredRegion);
+    
+    location.replace("https://nationstates.net/region=" + featuredRegion);
 
   })
   .catch(console.error);
