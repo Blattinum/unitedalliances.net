@@ -194,8 +194,3 @@ them.
 >The Founder can request there be made changes to the Constitution at any time with 2/3 majority approval of the Union Assembly.
 
 
-
-- - -
-`Built using` [Strapdown.js](http://strapdownjs.com)
-
-`Proudly hosted at` [collinblatt.com](http://collinblatt.com)
