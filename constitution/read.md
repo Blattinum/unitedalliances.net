@@ -1,3 +1,7 @@
+<head>
+<title>The Constitution of United Alliances</title>
+</head>
+
 # The Constitution of United Alliances
 
 >In order to form a bond between some of the world's greatest nations we hereby
