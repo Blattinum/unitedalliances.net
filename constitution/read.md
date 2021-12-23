@@ -4,7 +4,7 @@
 <style>
 
     ::selection {
-        background-color: #2b2b2b;
+        background-color: darkgoldenrod;
         color: #fff;
     }
 
