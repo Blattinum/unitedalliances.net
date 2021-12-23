@@ -1,5 +1,14 @@
 <head>
 <title>The Constitution of United Alliances</title>
+
+<style>
+
+    ::selection {
+        background-color: #2b2b2b;
+        color: #fff;
+    }
+
+</style>
 </head>
 
 # The Constitution of United Alliances
