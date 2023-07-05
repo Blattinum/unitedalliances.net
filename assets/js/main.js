@@ -9,6 +9,11 @@ function loadXMLDoc() {
   
     document.querySelector('.numnations').innerHTML = xml.documentElement.childNodes[5].innerHTML;
 
+    // console.log(xml.documentElement.childNodes[25].innerHTML);
+
+
+    document.querySelector('.banner-img').src = "//nationstates.net" + xml.documentElement.childNodes[29].innerHTML;
+
   })
   .catch(console.error);
   }
